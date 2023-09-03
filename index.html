@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Homepage | Qs_code</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container"> 
+            <img src="images/logo.svg" alt="Logo" class="logo">
+            <img src="images/icon-menu.svg" alt="Hamburger-icon" id="mobile-cta" class="menu"> 
+            
+            <nav>
+                <img src="images/icon-menu-close.svg" alt="Exit-icon" id="mobile-exit" class="menu_close">  
+                <ul>                  
+                    <li>Home</li>
+                    <li>New</li>    
+                    <li>Popular</li>
+                    <li>Trending</li>
+                    <li>Categories</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <img src="images/image-web-3-mobile.jpg" alt="hero-image" class="hero-mobile">
+                <img src="images/image-web-3-desktop.jpg" alt="hero-image" class="hero-desktop">
+                <article>
+                    <h1>The Bright Future of Web 3.0?</h1>
+
+                    <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                        But is it really fulfilling its promise?</p>
+
+                    <button>Read more</button>
+                </article>
+            </div>
+
+            <aside>
+                <h2>New</h2>
+                <ul>
+                    <li>
+                        <h3>Hydrogen VS Electric Cars</h3>
+                        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+                    </li>
+
+                    <li>
+                        <h3>The Downsides of AI Artistry</h3>
+                        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+                    </li>
+
+                    <li>
+                        <h3>Is VC Funding Drying Up?</h3>
+                        <p id="p_special">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+    </section>
+  
+    <section class="more-news">
+        <div class="container"></div>
+            <div class="card">
+                <img src="images/image-retro-pcs.jpg" alt="Retro PCs">
+                <div>
+                    <h2>01</h2>
+                    <h4>Reviving Retro PCs</h4>
+                    <p>What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/image-top-laptops.jpg" alt="Top Laptops">
+                <div>
+                    <h2>02</h2>
+                    <h4>Top 10 Laptops of 2022</h4>
+                    <p>Our best picks for various needs and budgets.</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="images/image-gaming-growth.jpg" alt="Gaming Image">
+                <div>
+                    <h2>03</h2>
+                    <h4>The Growth of Gaming</h4>
+                    <p>How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Qs_code</a>.
+</div>
+
+<script>
+    const mobileBtn = document.getElementById('mobile-cta')
+          nav = document.querySelector('nav')
+          mobileBtnExit = document.getElementById('mobile-exit');
+
+    mobileBtn.addEventListener('click', () => {
+        nav.classList.add('menu-btn');
+    })
+
+    mobileBtnExit.addEventListener('click', () => {
+        nav.classList.remove('menu-btn');
+    })
+</script>
+</body>
+</html>

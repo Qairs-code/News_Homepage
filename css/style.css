@@ -1,0 +1,1225 @@
+@media screen and (min-width: 320px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        margin: 1em;
+        font-family: 'Inter', sans-serif;        font-size: 15px;
+    }
+
+    header{
+        width: 100%;
+        height: 3em;
+    }
+
+    .logo{
+        width: 2.2em;
+        height: 1.3em;
+        margin: 0.8em 0 0 0.6em;
+    }
+
+    .menu{
+        width: 1.8em;
+        height: 0.9em;
+        margin: 0.9em 0.6em 0 0;
+        cursor: pointer;
+    }
+    
+    section{
+        width: 100%;
+    }
+
+    header .container{
+        width: 100%;
+        height: 3em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav{
+        display: none;
+    }
+
+    nav.menu-btn{
+        display: block;
+    }
+
+    nav{
+        width: 70%;
+        height: 100vh;
+        position: fixed;
+        right: 0;
+        top: 0;
+        background-color: white;
+        z-index: 999;        
+    }
+
+    nav ul{
+        display: block;
+        list-style-type: none;
+        margin-top: 9em;
+    }
+
+    nav li{
+        display: block;
+        padding: .8em 1.7em;
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    nav li:hover{
+        font-weight: bold;
+        background-color: #f2f2f2;
+    }
+
+    .menu_close{
+        float: right;
+        margin: 2em 1.5em;
+        cursor: pointer;
+    }
+
+    .hero{
+            width: 100%;
+            height: 60em;
+            display: block;
+    }
+
+    .hero-mobile{
+        width: 100%;
+        height: 17em;
+    }
+
+    .hero-desktop{
+        display: none;
+    }
+
+    .left-col{
+        width: 100%;
+        height: 35em;
+        display: block;
+        margin: 0.2em 0;
+    }
+
+    article{
+        display: block;
+    }
+
+    h1{
+        width: 100%;
+        height: 2em;
+        margin: 0.3em 0;
+        padding-right: 1.8em;
+        color: hsl(240, 100%, 5%);
+        font-weight: 800;
+        font-size: 1.9rem;
+        line-height: 1.1em;
+    }
+
+    article > p{
+        width: 100%;
+        height: 3em;
+        margin: 4em 0;
+        padding-right: 0.4em;
+        color: hsl(236, 13%, 42%);
+        font-weight: 400;
+        font-size: 0.75rem;
+        line-height: 1.4em;
+    }
+
+    article > button{
+        background-color: hsl(5, 85%, 63%);
+        color:hsl(36, 100%, 99%);
+        padding: 1.2em 2.5em;
+        outline: none;
+        border: none;
+        font-size: 0.62rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: .3em;
+    }
+
+    aside{
+        background-color: hsl(240, 100%, 5%);
+        height: 23.7em;
+        margin-top: 0.2em;
+        padding: 1em 0.8em 0em 0.9em;
+    }
+
+    aside h2{
+        color: hsl(35, 77%, 62%);
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-bottom: .7em;
+    }
+
+    aside ul{
+        display: block;
+        list-style-type: none;
+    }
+
+    aside li{
+        color: hsl(36, 100%, 99%);
+        margin-bottom: 1.5em;
+    }
+
+    aside h3{
+        font-size: 1rem;
+        padding-bottom: 0.5em;
+    }
+
+    aside p{
+        color: hsl(233, 8%, 79%);
+        padding: 0 2em 1.6em 0;
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 1.5em;
+        border-bottom: .1em solid white;
+    }
+
+    #p_special{
+        border-bottom: none;
+    }
+
+    .more-news{
+        width: 100%;
+        height: 28em;
+        display: block;
+    }
+
+    .card{
+        display: flex;
+        width: 100%;
+        height: 6.7em;
+        margin: 1.5em 0;
+    }
+
+    .more-news img{
+        width: 35%;
+        height: 6.6em;
+    }
+
+    .card div{
+        height: 20em;
+        margin: 0 0 0 1em;
+    }
+
+    .card h2{
+        color: hsl(233, 8%, 79%);
+        padding-bottom: .3em;
+        font-size: 1.5rem;
+    }
+
+    .card h4{
+        color: hsl(240, 100%, 5%);
+        font-size: 1rem;
+        font-weight: bold;
+        padding-bottom: .4em;
+    }
+
+    .card p{
+        color: hsl(236, 13%, 42%);
+        font-size: 0.8rem;
+        line-height: 1.6em;
+        padding-right: 0.3em;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        margin: 1em;
+        font-family: 'Inter', sans-serif;        
+        font-size: 15px;
+    }
+
+    nav{
+        width: 65%;
+        height: 100vh;
+        position: fixed;
+        right: 0;
+        top: 0;
+        background-color: white;
+        z-index: 999;        
+    }
+
+    header{
+        width: 100%;
+        height: 4em;
+    }
+
+    .logo{
+        width: 3.4em;
+        height: 2em;
+        margin: 1em 0 1em 0.6em;
+    }
+
+    .menu{
+        width: 2.7em;
+        height: 1.2em;
+        margin: 1.3em 0.6em 0 0;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    header .container{
+        width: 100%;
+        height: 3em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+
+    .hero{
+            width: 100%;
+            height: 60em;
+            display: block;
+    }
+
+    .hero-mobile{
+        width: 100%;
+        height: 20em;
+        margin-top: .8em;
+    }
+
+    .hero-desktop{
+        display: none;
+    }
+
+    .left-col{
+        width: 100%;
+        height: 45em;
+        display: block;
+        margin: 0.2em 0;
+    }
+
+    article{
+        display: block;
+    }
+
+    h1{
+        width: 100%;
+        height: 2em;
+        margin-top: 0.5em;
+        padding-right: .5em;
+        color: hsl(240, 100%, 5%);
+        font-weight: 800;
+        font-size: 2.5rem;
+        line-height: 1.1em;
+    }
+
+    article > p{
+        width: 100%;
+        height: 3em;
+        margin-top: 4em;
+        padding-right: 0.4em;
+        color: hsl(236, 13%, 42%);
+        font-weight: 400;
+        font-size: .95rem;
+        line-height: 1.7em;
+    }
+
+    article > button{
+        background-color: hsl(5, 85%, 63%);
+        color:hsl(36, 100%, 99%);
+        margin-top: 1.8em;
+        padding: 1.3em 2.8em;
+        outline: none;
+        border: none;
+        font-size: .8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: .3em;
+    }
+
+    aside{
+        background-color: hsl(240, 100%, 5%);
+        height: 32.5em;
+        margin-top: 2.5em;
+        padding: 1.5em 0.8em 0em 1.3em;
+    }
+
+    aside h2{
+        color: hsl(35, 77%, 62%);
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-bottom: .7em;
+    }
+
+    aside ul{
+        display: block;
+        list-style-type: none;
+    }
+
+    aside li{
+        color: hsl(36, 100%, 99%);
+    }
+
+    aside h3{
+        font-size: 1.2rem;
+        padding-bottom: 0.8em;
+    }
+
+    aside p{
+        color: hsl(233, 8%, 79%);
+        padding: 0 2em 1.9em 0;
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.7em;
+        border-bottom: .01em solid hsl(233, 8%, 79%);
+    }
+
+    #p_special{
+        border-bottom: none;
+    }
+
+    .more-news{
+        width: 100%;
+        height: 38em;
+        margin-top: 24.5em;
+        display: block;
+    }
+
+    .card{
+        display: flex;
+        width: 100%;
+        height: 9.1em;
+        margin: 2.2em 0;
+    }
+
+    .more-news img{
+        width: 30%;
+        height: 9em;
+    }
+
+    .card div{
+        width: 60%;
+        height: 20em;
+        margin: 0 0 0 1.4em;
+    }
+
+    .card h2{
+        color: hsl(233, 8%, 79%);
+        padding-bottom: .4em;
+        font-size: 2rem;
+    }
+
+    .card h4{
+        color: hsl(240, 100%, 5%);
+        font-size: 1.1rem;
+        font-weight: 800;
+        padding-bottom: .6em;
+    }
+
+    .card p{
+        color: hsl(236, 13%, 42%);
+        font-size: .9rem;
+        line-height: 1.7em;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        margin: 1em;
+        font-family: 'Inter', sans-serif;        
+        font-size: 15px;
+    }
+
+    nav{
+        width: 65%;
+        height: 100vh;
+        position: fixed;
+        right: 0;
+        top: 0;
+        background-color: white;
+        z-index: 999;        
+    }
+
+    header{
+        width: 100%;
+        height: 4em;
+    }
+
+    .logo{
+        width: 3.4em;
+        height: 2em;
+        margin: 1em 0 1em 0.6em;
+    }
+
+    .menu{
+        width: 2.7em;
+        height: 1.2em;
+        margin: 1.3em 0.6em 0 0;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    header .container{
+        width: 100%;
+        height: 3em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+
+    .hero{
+            width: 100%;
+            height: 60em;
+            display: block;
+    }
+
+    .hero-mobile{
+        width: 100%;
+        height: 20em;
+        margin-top: .8em;
+    }
+
+    .hero-desktop{
+        display: none;
+    }
+
+    .left-col{
+        width: 100%;
+        height: 45em;
+        display: block;
+        margin: 0.2em 0;
+    }
+
+    article{
+        display: block;
+    }
+
+    h1{
+        width: 100%;
+        height: 2em;
+        margin-top: 0.5em;
+        padding-right: .5em;
+        color: hsl(240, 100%, 5%);
+        font-weight: 800;
+        font-size: 2.5rem;
+        line-height: 1.1em;
+    }
+
+    article > p{
+        width: 100%;
+        height: 3em;
+        margin-top: 4em;
+        padding-right: 0.4em;
+        color: hsl(236, 13%, 42%);
+        font-weight: 400;
+        font-size: .95rem;
+        line-height: 1.7em;
+    }
+
+    article > button{
+        background-color: hsl(5, 85%, 63%);
+        color:hsl(36, 100%, 99%);
+        margin-top: 1.8em;
+        padding: 1.3em 2.8em;
+        outline: none;
+        border: none;
+        font-size: .8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: .3em;
+    }
+
+    aside{
+        background-color: hsl(240, 100%, 5%);
+        height: 32.5em;
+        margin-top: 2.5em;
+        padding: 1.5em 0.8em 0em 1.3em;
+    }
+
+    aside h2{
+        color: hsl(35, 77%, 62%);
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-bottom: .7em;
+    }
+
+    aside ul{
+        display: block;
+        list-style-type: none;
+    }
+
+    aside li{
+        color: hsl(36, 100%, 99%);
+    }
+
+    aside h3{
+        font-size: 1.2rem;
+        padding-bottom: 0.8em;
+    }
+
+    aside p{
+        color: hsl(233, 8%, 79%);
+        padding: 0 2em 1.9em 0;
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.7em;
+        border-bottom: .01em solid hsl(233, 8%, 79%);
+    }
+
+    #p_special{
+        border-bottom: none;
+    }
+
+    .more-news{
+        width: 100%;
+        height: 38em;
+        margin-top: 24.5em;
+        display: block;
+    }
+
+    .card{
+        display: flex;
+        width: 100%;
+        height: 9.1em;
+        margin: 2.2em 0;
+    }
+
+    .more-news img{
+        width: 30%;
+        height: 9em;
+    }
+
+    .card div{
+        width: 60%;
+        height: 20em;
+        margin: 0 0 0 1.4em;
+    }
+
+    .card h2{
+        color: hsl(233, 8%, 79%);
+        padding-bottom: .4em;
+        font-size: 2rem;
+    }
+
+    .card h4{
+        color: hsl(240, 100%, 5%);
+        font-size: 1.1rem;
+        font-weight: 800;
+        padding-bottom: .6em;
+    }
+
+    .card p{
+        color: hsl(236, 13%, 42%);
+        font-size: .9rem;
+        line-height: 1.7em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        margin: 1em;
+        font-family: 'Inter', sans-serif;        
+        font-size: 15px;
+    }
+
+    nav{
+        width: 65%;
+        height: 100vh;
+        position: fixed;
+        right: 0;
+        top: 0;
+        background-color: white;
+        z-index: 999;        
+    }
+
+    header{
+        width: 100%;
+        height: 4em;
+    }
+
+    .logo{
+        width: 3.4em;
+        height: 2em;
+        margin: 1em 0 1em 0.6em;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    header .container{
+        width: 100%;
+        height: 3em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+
+    .hero{
+            width: 100%;
+            height: 60em;
+            display: block;
+    }
+
+    .hero-mobile{
+        width: 100%;
+        height: 20em;
+        margin-top: .8em;
+    }
+
+    .hero-desktop{
+        display: none;
+    }
+
+    .left-col{
+        width: 100%;
+        height: 45em;
+        display: block;
+        margin: 0.2em 0;
+    }
+
+    article{
+        display: block;
+    }
+
+    h1{
+        width: 100%;
+        height: 2em;
+        margin-top: 0.5em;
+        padding-right: .5em;
+        color: hsl(240, 100%, 5%);
+        font-weight: 800;
+        font-size: 2.5rem;
+        line-height: 1.1em;
+    }
+
+    article > p{
+        width: 100%;
+        height: 3em;
+        margin-top: 4em;
+        padding-right: 0.4em;
+        color: hsl(236, 13%, 42%);
+        font-weight: 400;
+        font-size: .95rem;
+        line-height: 1.7em;
+    }
+
+    article > button{
+        background-color: hsl(5, 85%, 63%);
+        color:hsl(36, 100%, 99%);
+        margin-top: 1.8em;
+        padding: 1.3em 2.8em;
+        outline: none;
+        border: none;
+        font-size: .8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: .3em;
+    }
+
+    aside{
+        background-color: hsl(240, 100%, 5%);
+        height: 32.5em;
+        margin-top: 2.5em;
+        padding: 1.5em 0.8em 0em 1.3em;
+    }
+
+    aside h2{
+        color: hsl(35, 77%, 62%);
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-bottom: .7em;
+    }
+
+    aside ul{
+        display: block;
+        list-style-type: none;
+    }
+
+    aside li{
+        color: hsl(36, 100%, 99%);
+    }
+
+    aside h3{
+        font-size: 1.2rem;
+        padding-bottom: 0.8em;
+    }
+
+    aside p{
+        color: hsl(233, 8%, 79%);
+        padding: 0 2em 1.9em 0;
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.7em;
+        border-bottom: .01em solid hsl(233, 8%, 79%);
+    }
+
+    #p_special{
+        border-bottom: none;
+    }
+
+    .more-news{
+        width: 100%;
+        height: 38em;
+        margin-top: 24.5em;
+        display: block;
+    }
+
+    .card{
+        display: flex;
+        width: 100%;
+        height: 9.1em;
+        margin: 2.2em 0;
+    }
+
+    .more-news img{
+        width: 30%;
+        height: 9em;
+    }
+
+    .card div{
+        width: 60%;
+        height: 20em;
+        margin: 0 0 0 1.4em;
+    }
+
+    .card h2{
+        color: hsl(233, 8%, 79%);
+        padding-bottom: .4em;
+        font-size: 2rem;
+    }
+
+    .card h4{
+        color: hsl(240, 100%, 5%);
+        font-size: 1.1rem;
+        font-weight: 800;
+        padding-bottom: .6em;
+    }
+
+    .card p{
+        color: hsl(236, 13%, 42%);
+        font-size: .9rem;
+        line-height: 1.7em;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        margin: 1em;
+        font-family: 'Inter', sans-serif;        font-size: 15px;
+    }
+
+    nav{
+        width: 65%;
+        height: 100vh;
+        position: fixed;
+        right: 0;
+        top: 0;
+        background-color: white;
+        z-index: 999;        
+    }
+
+    header{
+        width: 100%;
+        height: 4em;
+    }
+
+    .logo{
+        width: 3.4em;
+        height: 2em;
+        margin: 1em 0 1em 0.6em;
+    }
+
+    .menu{
+        width: 2.7em;
+        height: 1.2em;
+        margin: 1.3em 0.6em 0 0;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    header .container{
+        width: 100%;
+        height: 3em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+
+    .hero{
+            width: 100%;
+            height: 60em;
+            display: block;
+    }
+
+    .hero-mobile{
+        width: 100%;
+        height: 20em;
+        margin-top: .8em;
+    }
+
+    .hero-desktop{
+        display: none;
+    }
+
+    .left-col{
+        width: 100%;
+        height: 45em;
+        display: block;
+        margin: 0.2em 0;
+    }
+
+    article{
+        display: block;
+    }
+
+    h1{
+        width: 100%;
+        height: 2em;
+        margin-top: 0.5em;
+        padding-right: .5em;
+        color: hsl(240, 100%, 5%);
+        font-weight: 800;
+        font-size: 2.5rem;
+        line-height: 1.1em;
+    }
+
+    article > p{
+        width: 100%;
+        height: 3em;
+        margin-top: 4em;
+        padding-right: 0.4em;
+        color: hsl(236, 13%, 42%);
+        font-weight: 400;
+        font-size: .95rem;
+        line-height: 1.7em;
+    }
+
+    article > button{
+        background-color: hsl(5, 85%, 63%);
+        color:hsl(36, 100%, 99%);
+        margin-top: 1.8em;
+        padding: 1.3em 2.8em;
+        outline: none;
+        border: none;
+        font-size: .8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: .3em;
+    }
+
+    aside{
+        background-color: hsl(240, 100%, 5%);
+        height: 32.5em;
+        margin-top: 2.5em;
+        padding: 1.5em 0.8em 0em 1.3em;
+    }
+
+    aside h2{
+        color: hsl(35, 77%, 62%);
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-bottom: .7em;
+    }
+
+    aside ul{
+        display: block;
+        list-style-type: none;
+    }
+
+    aside li{
+        color: hsl(36, 100%, 99%);
+    }
+
+    aside h3{
+        font-size: 1.2rem;
+        padding-bottom: 0.8em;
+    }
+
+    aside p{
+        color: hsl(233, 8%, 79%);
+        padding: 0 2em 1.9em 0;
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.7em;
+        border-bottom: .01em solid hsl(233, 8%, 79%);
+    }
+
+    #p_special{
+        border-bottom: none;
+    }
+
+    .more-news{
+        width: 100%;
+        height: 38em;
+        margin-top: 24.5em;
+        display: block;
+    }
+
+    .card{
+        display: flex;
+        width: 100%;
+        height: 9.1em;
+        margin: 2.2em 0;
+    }
+
+    .more-news img{
+        width: 30%;
+        height: 9em;
+    }
+
+    .card div{
+        width: 60%;
+        height: 20em;
+        margin: 0 0 0 1.4em;
+    }
+
+    .card h2{
+        color: hsl(233, 8%, 79%);
+        padding-bottom: .4em;
+        font-size: 2rem;
+    }
+
+    .card h4{
+        color: hsl(240, 100%, 5%);
+        font-size: 1.1rem;
+        font-weight: 800;
+        padding-bottom: .6em;
+    }
+
+    .card p{
+        color: hsl(236, 13%, 42%);
+        font-size: .9rem;
+        line-height: 1.7em;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        margin: 1em;
+        font-family: 'Inter', sans-serif;        font-size: 15px;
+    }
+
+    nav{
+        width: 65%;
+        height: 100vh;
+        position: fixed;
+        right: 0;
+        top: 0;
+        background-color: white;
+        z-index: 999;        
+    }
+
+    header{
+        width: 100%;
+        height: 4em;
+    }
+
+    .logo{
+        width: 3.4em;
+        height: 2em;
+        margin: 1em 0 1em 0.6em;
+    }
+
+    .menu{
+        width: 2.7em;
+        height: 1.2em;
+        margin: 1.3em 0.6em 0 0;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    header .container{
+        width: 100%;
+        height: 3em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+
+    .hero{
+            width: 100%;
+            height: 60em;
+            display: block;
+    }
+
+    .hero-mobile{
+        width: 100%;
+        height: 20em;
+        margin-top: .8em;
+    }
+
+    .hero-desktop{
+        display: none;
+    }
+
+    .left-col{
+        width: 100%;
+        height: 45em;
+        display: block;
+        margin: 0.2em 0;
+    }
+
+    article{
+        display: block;
+    }
+
+    h1{
+        width: 100%;
+        height: 2em;
+        margin-top: 0.5em;
+        padding-right: .5em;
+        color: hsl(240, 100%, 5%);
+        font-weight: 800;
+        font-size: 2.5rem;
+        line-height: 1.1em;
+    }
+
+    article > p{
+        width: 100%;
+        height: 3em;
+        margin-top: 4em;
+        padding-right: 0.4em;
+        color: hsl(236, 13%, 42%);
+        font-weight: 400;
+        font-size: .95rem;
+        line-height: 1.7em;
+    }
+
+    article > button{
+        background-color: hsl(5, 85%, 63%);
+        color:hsl(36, 100%, 99%);
+        margin-top: 1.8em;
+        padding: 1.3em 2.8em;
+        outline: none;
+        border: none;
+        font-size: .8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: .3em;
+    }
+
+    aside{
+        background-color: hsl(240, 100%, 5%);
+        height: 32.5em;
+        margin-top: 2.5em;
+        padding: 1.5em 0.8em 0em 1.3em;
+    }
+
+    aside h2{
+        color: hsl(35, 77%, 62%);
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-bottom: .7em;
+    }
+
+    aside ul{
+        display: block;
+        list-style-type: none;
+    }
+
+    aside li{
+        color: hsl(36, 100%, 99%);
+    }
+
+    aside h3{
+        font-size: 1.2rem;
+        padding-bottom: 0.8em;
+    }
+
+    aside p{
+        color: hsl(233, 8%, 79%);
+        padding: 0 2em 1.9em 0;
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.7em;
+        border-bottom: .01em solid hsl(233, 8%, 79%);
+    }
+
+    #p_special{
+        border-bottom: none;
+    }
+
+    .more-news{
+        width: 100%;
+        height: 38em;
+        margin-top: 24.5em;
+        display: block;
+    }
+
+    .card{
+        display: flex;
+        width: 100%;
+        height: 9.1em;
+        margin: 2.2em 0;
+    }
+
+    .more-news img{
+        width: 30%;
+        height: 9em;
+    }
+
+    .card div{
+        width: 60%;
+        height: 20em;
+        margin: 0 0 0 1.4em;
+    }
+
+    .card h2{
+        color: hsl(233, 8%, 79%);
+        padding-bottom: .4em;
+        font-size: 2rem;
+    }
+
+    .card h4{
+        color: hsl(240, 100%, 5%);
+        font-size: 1.1rem;
+        font-weight: 800;
+        padding-bottom: .6em;
+    }
+
+    .card p{
+        color: hsl(236, 13%, 42%);
+        font-size: .9rem;
+        line-height: 1.7em;
+    }
+}
